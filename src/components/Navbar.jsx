@@ -18,8 +18,7 @@ const Navbar = () => {
             <li><NavLink to="/" className={({isActive})=> isActive ? "text-amber-800 font-semibold" : ""}>Home</NavLink></li>
             <li><NavLink to="/music" className={({isActive})=> isActive ? "text-amber-800 font-semibold" : ""}>Music</NavLink></li>
             <li><NavLink to="/about" className={({isActive})=> isActive ? "text-amber-800 font-semibold" : ""}>About</NavLink></li>
-            <li><NavLink to="/contact" className={({isActive})=> isActive ? "text-amber-800 font-semibold" : ""}>Contact</NavLink></li>
-            
+            <li><a href="https://github.com/ashishmishrapy/3MUSKETEERS" target="_blank" >Contact</a></li>
           </ul>
         </nav>
       </div>
@@ -28,7 +27,7 @@ const Navbar = () => {
             <li><Link to="/">Home</Link></li>
             <li><Link to="/music">Music</Link></li>
             <li><Link to="/about">About</Link></li>
-            <li><Link to="/contact">Contact</Link></li>
+            <li><a href="https://github.com/ashishmishrapy/3MUSKETEERS" target="_blank" >Contact</a></li>
           </ul>
       </nav>
     </div>
