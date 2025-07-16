@@ -23,13 +23,33 @@ A visually bold and cinematic landing page for a fictional music band called **3
 
 ## 📁 Folder Structure
 
-src/
+3MUSKETEERS/
+├── public/
+│   ├── img/                  # Backgrounds, band images
+│   └── index.html            # HTML entry point
 │
-├── assets/ # Images, backgrounds
-├── components/ # Navbar, Footer, SocialLinks
-├── pages/ # Landing, MusicPage, About, Contact
-├── App.jsx # Main routing logic
-└── main.jsx # Entry point
+├── src/
+│   ├── assets/               # Optional folder for logos, icons, etc.
+│   ├── components/
+│   │   ├── Navbar.jsx        # Top navigation bar
+│   │   ├── Footer.jsx        # Footer section (optional)
+│   │   └── SocialLinks.jsx   # Side floating social media icons
+│   │
+│   ├── pages/
+│   │   ├── Landing.jsx       # Main landing page
+│   │   ├── MusicPage.jsx     # Music videos and album showcase
+│   │   ├── About.jsx         # About the band/artist
+│   │   └── Contact.jsx       # Contact or booking page
+│   │
+│   ├── App.jsx               # Main app with routing
+│   └── main.jsx              # Entry point (Vite-powered)
+│
+├── .gitignore
+├── package.json
+├── tailwind.config.js
+├── postcss.config.js
+└── README.md
+
 
 ---
 
