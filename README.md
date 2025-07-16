@@ -21,38 +21,6 @@ A visually bold and cinematic landing page for a fictional music band called **3
 
 ---
 
-## 📁 Folder Structure
-
-3MUSKETEERS/
-├── public/
-│   ├── img/                  # Backgrounds, band images
-│   └── index.html            # HTML entry point
-│
-├── src/
-│   ├── assets/               # Optional folder for logos, icons, etc.
-│   ├── components/
-│   │   ├── Navbar.jsx        # Top navigation bar
-│   │   ├── Footer.jsx        # Footer section (optional)
-│   │   └── SocialLinks.jsx   # Side floating social media icons
-│   │
-│   ├── pages/
-│   │   ├── Landing.jsx       # Main landing page
-│   │   ├── MusicPage.jsx     # Music videos and album showcase
-│   │   ├── About.jsx         # About the band/artist
-│   │   └── Contact.jsx       # Contact or booking page
-│   │
-│   ├── App.jsx               # Main app with routing
-│   └── main.jsx              # Entry point (Vite-powered)
-│
-├── .gitignore
-├── package.json
-├── tailwind.config.js
-├── postcss.config.js
-└── README.md
-
-
----
-
 ## 🛠 Tech Stack
 
 - **React**
@@ -80,18 +48,25 @@ npm run dev
 
 <img width="2157" height="1191" alt="image" src="https://github.com/user-attachments/assets/f347a161-eade-4853-b272-0e18e8cbf0bb" />
 
-📬 Contact
-Created by Ashish Mishra
-📧 Email: ashish.work.contact@gmail.com
-🐙 GitHub: ashishmishrapy
 
-📄 License
-This project is licensed under the MIT License.
+## 📬 Contact
 
-🙌 Acknowledgements
-React & Vite
-Tailwind CSS
-React Router
-YouTube Embed API
+**Created by:** Ashish Mishra  
+📧 **Email:** [ashish.work.contact@gmail.com](mailto:ashish.work.contact@gmail.com)  
+🐙 **GitHub:** [ashishmishrapy](https://github.com/ashishmishrapy)
 
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License**.
+
+---
+
+## 🙌 Acknowledgements
+
+- React & Vite  
+- Tailwind CSS  
+- React Router  
+- YouTube Embed API
 
