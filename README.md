@@ -21,18 +21,6 @@ A visually bold and cinematic landing page for a fictional music band called **3
 
 ---
 
-## 📁 Folder Structure
-
-src/
-│
-├── assets/ # Images, backgrounds
-├── components/ # Navbar, Footer, SocialLinks
-├── pages/ # Landing, MusicPage, About, Contact
-├── App.jsx # Main routing logic
-└── main.jsx # Entry point
-
----
-
 ## 🛠 Tech Stack
 
 - **React**
@@ -60,18 +48,25 @@ npm run dev
 
 <img width="2157" height="1191" alt="image" src="https://github.com/user-attachments/assets/f347a161-eade-4853-b272-0e18e8cbf0bb" />
 
-📬 Contact
-Created by Ashish Mishra
-📧 Email: ashish.work.contact@gmail.com
-🐙 GitHub: ashishmishrapy
 
-📄 License
-This project is licensed under the MIT License.
+## 📬 Contact
 
-🙌 Acknowledgements
-React & Vite
-Tailwind CSS
-React Router
-YouTube Embed API
+**Created by:** Ashish Mishra  
+📧 **Email:** [ashish.work.contact@gmail.com](mailto:ashish.work.contact@gmail.com)  
+🐙 **GitHub:** [ashishmishrapy](https://github.com/ashishmishrapy)
 
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License**.
+
+---
+
+## 🙌 Acknowledgements
+
+- React & Vite  
+- Tailwind CSS  
+- React Router  
+- YouTube Embed API
 
