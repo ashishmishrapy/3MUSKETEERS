@@ -15,18 +15,18 @@ const Navbar = () => {
             <CiMenuFries />
           </button>
           <ul className="lg:flex hidden gap-7">
-            <li><NavLink to="/" onClick={()=>setShowMenu(!showMenu)} className={({isActive})=> isActive ? "text-amber-800 font-semibold" : ""}>Home</NavLink></li>
-            <li><NavLink to="/music" onClick={()=>setShowMenu(!showMenu)} className={({isActive})=> isActive ? "text-amber-800 font-semibold" : ""}>Music</NavLink></li>
-            <li><NavLink to="/about" onClick={()=>setShowMenu(!showMenu)} className={({isActive})=> isActive ? "text-amber-800 font-semibold" : ""}>About</NavLink></li>
+            <li><NavLink to="/" className={({isActive})=> isActive ? "text-amber-800 font-semibold" : ""}>Home</NavLink></li>
+            <li><NavLink to="/music" className={({isActive})=> isActive ? "text-amber-800 font-semibold" : ""}>Music</NavLink></li>
+            <li><NavLink to="/about" className={({isActive})=> isActive ? "text-amber-800 font-semibold" : ""}>About</NavLink></li>
             <li><a href="https://github.com/ashishmishrapy/3MUSKETEERS" target="_blank" >Contact</a></li>
           </ul>
         </nav>
       </div>
       <nav>
          <ul className={`h-[90vh] gap-7 flex-col items-center text-xl text-center justify-center ${showMenu ? "flex" : "hidden"} `}>
-            <li><Link to="/">Home</Link></li>
-            <li><Link to="/music">Music</Link></li>
-            <li><Link to="/about">About</Link></li>
+            <li><Link to="/" onClick={()=>setShowMenu(!showMenu)}>Home</Link></li>
+            <li><Link to="/music" onClick={()=>setShowMenu(!showMenu)}>Music</Link></li>
+            <li><Link to="/about" onClick={()=>setShowMenu(!showMenu)}>About</Link></li>
             <li><a href="https://github.com/ashishmishrapy/3MUSKETEERS" target="_blank" >Contact</a></li>
           </ul>
       </nav>
